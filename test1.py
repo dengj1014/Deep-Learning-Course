@@ -8,7 +8,7 @@ import math
 a=int(input("Plese input a:"))  #定义a
 b=int(input("Plese input b:"))  #定义b
 c=int(input("Plese input c:"))  #定义c
-s=(b*b)-(4*a*c)                 #一元二次根式判断是否有解的公司
+s=(b*b)-(4*a*c)                 #一元二次根式判断是否有解的公式
 if s<0:                         #s<0代表此方程没有解
     print("不好意思，次方程无解！！！")
 elif s>0:                       #s>0代表此方程有两个不相同的解
