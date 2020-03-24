@@ -29,8 +29,7 @@ while(1):
     if neara>=20 and neara<=500 and nroomnum>=1 and nroomnum<=10:
         break
     else:
-        print("输入房屋面或房间数积范围错误！！！")
+        print("输入房屋面积或房间数范围错误！！！")
 yprice=w[1]*neara+w[2]*nroomnum+w[0]
-
 
 print("房屋面积：{}\n房间数：{}\n预测的房价为：{:.2f}万元".format(neara,nroomnum,yprice[0]))
