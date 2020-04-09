@@ -27,8 +27,8 @@ b=tf.Variable(tf.zeros(1),dtype=tf.float32)
 # print(w)
 # print(b)
 #设置超参数
-training_epochs=50#迭代次数
-learning_rate=0.01#学习率
+training_epochs=150#迭代次数
+learning_rate=0.02#学习率
 batch_size=10#批量训练一次的样本数
 #定义均方误差损失函数
 def loss(x,y,w,b):
